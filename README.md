@@ -1,6 +1,6 @@
 # Online Learning Platform
 
-https://github.com/Ben18278/learningplatform/blob/main/screenshot/Screenshot%20(1045).png
+https://github.com/Ben18278/learningplatform/blob/main/screenshot/Screenshot%20(1045).png?raw=true
 ![Screenshot 2](path/to/screenshot2.png)
 
 ## Description
