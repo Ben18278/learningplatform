@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "bio": "An enthusiastic learner.",
+      "enrolledCourses": [1, 2]
+    },
+    {
+      "id": 2,
+      "name": "Bob Brown",
+      "email": "bob@example.com",
+      "bio": "Loves coding and coffee.",
+      "enrolledCourses": [3]
+    },
+    {
+      "id": 3,
+      "name": "John Beggy",
+      "email": "john@example.com",
+      "bio": "Passionate about technology.",
+      "enrolledCourses": [4]
+    }
+  ]
+  

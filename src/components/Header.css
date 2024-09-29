@@ -1,0 +1,33 @@
+/* Container for the navigation buttons */
+.button-nav-container {
+  text-align: center;
+  margin-top: 20px; /* Add margin below the Explore Courses button */
+}
+
+/* Styling for navigation links */
+.button-nav {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Add space between buttons */
+}
+
+.button-nav li {
+  margin: 5px;
+}
+
+.button-nav li a {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.button-nav li a:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,50 @@
+.newsletter {
+    background-color: #e1f5fe; /* Soft light blue background */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(108, 202, 243, 0.1); /* Subtle shadow */
+    text-align: center; /* Centered text */
+}
+
+.newsletter h2 {
+    font-size: 2.5rem; /* Increased font size for the heading */
+    font-weight: bold; /* Bold heading */
+    color: #0277bd; /* Darker blue for the heading */
+}
+
+.newsletter p {
+    font-size: 1.2rem; /* Increased font size for the paragraph */
+    color: #bed3f8; /* Soft gray color for the text */
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* Ensure proper wrapping on smaller screens */
+}
+
+.newsletter input,
+.newsletter button {
+    padding: 0.7rem; /* Increased padding for better touch */
+    border-radius: 4px;
+    font-size: 1.1rem; /* Slightly larger font for legibility */
+}
+
+.newsletter input {
+    width: 300px;
+    border: 2px solid #0091ea; /* Blue border */
+}
+
+.newsletter button {
+    padding: 0.7rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.newsletter button:hover {
+    background-color: #0056b3;
+}

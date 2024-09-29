@@ -1,0 +1,36 @@
+.partners {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e3f2fd; /* Light blue background */
+  box-shadow: 0 4px 10px rgba(108, 202, 243, 0.1); /* Subtle shadow */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* Wrap logos on smaller screens */
+}
+
+.partner-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partner-logos img {
+  width: 150px;
+  border-radius: 8px;
+  transition: transform 0.3s; /* Animation effect on hover */
+}
+
+.partner-logos img:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+.partner-card p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #ffffff; /* Dark blue for text */
+}

@@ -1,0 +1,38 @@
+/* App.css or Global Styles */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Prevents horizontal scrollbars */
+}
+
+/* Container adjustment */
+.container {
+  width: 100%; /* Ensure it takes full width */
+  margin: 0 auto;
+  padding: 0; /* Remove any padding that might shrink content */
+}
+
+/* Example for sections like HeroSection, FeaturedCourses */
+section {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box; /* Ensure padding is inside the width */
+}
+
+header, footer, .hero-section, .featured-courses, .about-us {
+  width: 100%;
+  margin: 0;
+  padding: 0 10px; /* Adding some padding for spacing */
+  box-sizing: border-box;
+}
+
+/* Override external styles if necessary */
+.hero-section, .featured-courses, .about-us {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}

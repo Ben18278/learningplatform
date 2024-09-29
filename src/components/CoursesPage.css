@@ -1,0 +1,154 @@
+/* Page Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Courses Page Container */
+.courses-page {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Move Student Schedule to Top */
+.student-schedule {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 40px; /* Add some space above */
+  transition: box-shadow 0.2s;
+}
+
+.student-schedule:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.student-schedule h2 {
+  margin-bottom: 15px;
+  font-size: 1.4em;
+  color: #333;
+}
+
+.student-schedule table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-schedule th, .student-schedule td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-size: 0.95em;
+}
+
+.student-schedule th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.student-schedule td {
+  background-color: #f1f1f1;
+}
+
+/* Courses List Styling */
+.courses-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-auto-rows: minmax(250px, auto);
+  gap: 30px;
+}
+
+.course-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.course-card h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.course-card p {
+  color: #666;
+  font-size: 0.95em;
+}
+
+.course-card button, .course-card a {
+  margin-top: 15px;
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.course-card button:hover, .course-card a:hover {
+  background-color: #0056b3;
+}
+
+.course-card a {
+  margin-left: 10px;
+  background-color: #28a745;
+}
+
+.course-card a:hover {
+  background-color: #218838;
+}
+
+.course-card button.delete {
+  background-color: #dc3545;
+  margin-left: 10px;
+}
+
+.course-card button.delete:hover {
+  background-color: #c82333;
+}
+
+/* Remove button in student schedule */
+.student-schedule button.remove {
+  background-color: #dc3545; /* Change to your desired color */
+  color: white; /* Text color */
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.student-schedule button.remove:hover {
+  background-color: #c82333; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .courses-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .courses-list {
+    grid-template-columns: 1fr; /* Single column on mobile */
+  }
+}

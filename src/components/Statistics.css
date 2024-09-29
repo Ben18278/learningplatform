@@ -1,0 +1,40 @@
+.statistics {
+  text-align: center;
+  padding: 2rem;
+  background-color: #000000; /* Light blue background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* Wrap items on smaller screens */
+}
+
+.stat-card {
+  padding: 1.5rem; /* Increased padding */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff; /* White background for cards */
+  width: 150px;
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  text-align: center; /* Center text */
+}
+
+.stat-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.stat-card h3 {
+  font-size: 2rem; /* Increased font size for title */
+  color: #000; /* Black for title */
+  font-weight: bold; /* Bold title */
+}
+
+.stat-card p {
+  font-size: 1.2rem; /* Increased font size for description */
+  color: #000; /* Black for description */
+}
