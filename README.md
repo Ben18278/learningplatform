@@ -1,6 +1,6 @@
 # Online Learning Platform
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](screenshot/Screenshot (1045).png)
 ![Screenshot 2](screenshots/screenshot2.png)
 
 ## Description
