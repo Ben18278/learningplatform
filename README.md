@@ -1,6 +1,6 @@
 # Online Learning Platform
 
-![Screenshot 1](screenshot/Screenshot (1045).png)
+https://github.com/Ben18278/learningplatform/blob/main/screenshot/Screenshot%20(1045).png
 ![Screenshot 2](screenshots/screenshot2.png)
 
 ## Description
