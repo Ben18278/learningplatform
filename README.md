@@ -15,3 +15,7 @@ The Online Learning Platform is a comprehensive web application designed to faci
 - CRUD operations for courses, instructors, and students
 - Dashboard for monitoring registered courses, instructors, and students
 - Responsive design for accessibility on various devices
+
+  npm install
+  npm install react react-dom
+
