@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to HTML",
+        "description": "Learn the basics of HTML.",
+        "detailedDescription": "This course covers HTML tags, structure, and how to create web pages using HTML.",
+        "instructor": "John Doe"
+    },
+    {
+        "id": 2,
+        "title": "CSS for Beginners",
+        "description": "Master CSS styling techniques.",
+        "detailedDescription": "Learn how to style web pages using CSS, including flexbox, grid, and animations.",
+        "instructor": "Jane Smith"
+    },
+    {
+        "id": 3,
+        "title": "JavaScript Essentials",
+        "description": "Get started with JavaScript programming.",
+        "detailedDescription": "Learn the fundamentals of JavaScript, including variables, loops, and functions.",
+        "instructor": "Michael Johnson"
+    },
+    {
+        "id": 4,
+        "title": "React Basics",
+        "description": "Build user interfaces with React.",
+        "detailedDescription": "Learn how to build dynamic web applications using React.js.",
+        "instructor": "Sarah Wilson"
+    },
+    {
+        "id": 5,
+        "title": "Advanced CSS Techniques",
+        "description": "Deep dive into CSS.",
+        "detailedDescription": "Master advanced CSS techniques like flexbox, CSS grid, and responsive design.",
+        "instructor": "David Clark"
+    },
+    {
+        "id": 6,
+        "title": "Node.js for Backend",
+        "description": "Learn backend development with Node.js.",
+        "detailedDescription": "This course covers server-side development using Node.js and Express.",
+        "instructor": "Emily Davis"
+    },
+    {
+        "id": 7,
+        "title": "MongoDB for Beginners",
+        "description": "Introduction to MongoDB databases.",
+        "detailedDescription": "Learn how to design, build, and manage NoSQL databases using MongoDB.",
+        "instructor": "James White"
+    },
+    {
+        "id": 8,
+        "title": "Full Stack Development with MERN",
+        "description": "Become a full-stack developer.",
+        "detailedDescription": "This course covers the MERN stack (MongoDB, Express, React, and Node.js).",
+        "instructor": "Laura Brown"
+    },
+    {
+        "id": 9,
+        "title": "Python for Data Science",
+        "description": "Learn Python for data analysis.",
+        "detailedDescription": "This course covers Python libraries like Pandas and NumPy for data analysis.",
+        "instructor": "Daniel Green"
+    },
+    {
+        "id": 10,
+        "title": "Machine Learning with Python",
+        "description": "Get started with machine learning.",
+        "detailedDescription": "Learn machine learning techniques using Python, including regression, classification, and clustering.",
+        "instructor": "Sophia Miller"
+    },
+    {
+        "id": 11,
+        "title": "UI/UX Design for Beginners",
+        "description": "Learn the principles of UI/UX design.",
+        "detailedDescription": "This course covers user-centered design, wireframing, and prototyping using Figma.",
+        "instructor": "Oliver Adams"
+    },
+    {
+        "id": 12,
+        "title": "SQL for Data Analysis",
+        "description": "Master SQL queries for databases.",
+        "detailedDescription": "This course covers SQL queries for data extraction, manipulation, and analysis.",
+        "instructor": "Sophia Turner"
+    },
+    {
+        "id": 13,
+        "title": "Android App Development",
+        "description": "Learn Android development with Java.",
+        "detailedDescription": "This course covers Android app development using Java and Android Studio.",
+        "instructor": "Ethan Moore"
+    },
+    {
+        "id": 14,
+        "title": "iOS Development with Swift",
+        "description": "Learn iOS app development.",
+        "detailedDescription": "This course covers app development for iOS devices using Swift and Xcode.",
+        "instructor": "Isabella Thomas"
+    },
+    {
+        "id": 15,
+        "title": "Data Structures and Algorithms",
+        "description": "Master data structures and algorithms.",
+        "detailedDescription": "Learn the most common data structures and algorithms used in technical interviews.",
+        "instructor": "William Roberts"
+    },
+    {
+        "id": 16,
+        "title": "AWS Cloud for Beginners",
+        "description": "Get started with cloud computing.",
+        "detailedDescription": "This course covers the basics of AWS, including EC2, S3, and cloud services.",
+        "instructor": "Benjamin Walker"
+    },
+    {
+        "id": 17,
+        "title": "Blockchain Development",
+        "description": "Learn how to build blockchain applications.",
+        "detailedDescription": "This course covers the fundamentals of blockchain technology and how to develop decentralized applications.",
+        "instructor": "Grace Martin"
+    },
+    {
+        "id": 18,
+        "title": "DevOps with Docker and Kubernetes",
+        "description": "Master DevOps tools.",
+        "detailedDescription": "Learn how to use Docker and Kubernetes for containerized applications and orchestration.",
+        "instructor": "Matthew Harris"
+    },
+    {
+        "id": 19,
+        "title": "Cybersecurity Fundamentals",
+        "description": "Learn the basics of cybersecurity.",
+        "detailedDescription": "This course covers cybersecurity principles, including encryption, network security, and ethical hacking.",
+        "instructor": "Mia Lewis"
+    },
+    {
+        "id": 20,
+        "title": "Digital Marketing",
+        "description": "Learn digital marketing strategies.",
+        "detailedDescription": "This course covers SEO, content marketing, social media, and analytics tools.",
+        "instructor": "Christopher Young"
+    }
+]
