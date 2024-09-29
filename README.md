@@ -7,6 +7,8 @@
 ![Screenshot 5](https://raw.githubusercontent.com/Ben18278/learningplatform/refs/heads/main/screenshot/Screenshot%20(1050).png)
 ![Screenshot 6](https://raw.githubusercontent.com/Ben18278/learningplatform/refs/heads/main/screenshot/Screenshot%20(1051).png)
 
+## Eakksit Sompee
+
 ## Description
 The Online Learning Platform is a comprehensive web application designed to facilitate online education. Users can browse courses, register as students, manage their schedules, and connect with instructors. This platform aims to democratize education and provide access to quality learning resources for everyone.
 
